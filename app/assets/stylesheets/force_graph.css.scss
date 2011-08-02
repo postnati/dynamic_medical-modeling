@@ -1,0 +1,40 @@
+// Place all the styles related to the ForceGraph controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// ------------------------------
+// Force Graph
+// ------------------------------
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+line.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+// ------------------------------
+
+// ------------------------------
+// Dynamic Force Graph
+// ------------------------------
+rect {
+  fill: #fff;
+}
+
+.node {
+  fill: #000;
+}
+
+.cursor {
+  fill: none;
+  stroke: brown;
+  pointer-events: none;
+}
+
+.link {
+  stroke: #999;
+}
+// ------------------------------
+
