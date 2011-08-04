@@ -2,19 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+    background: none repeat scroll 0 0 #222222;
+}
+
 // ------------------------------
 // Force Graph
 // ------------------------------
 circle.node {
-  stroke: #fff;
-  stroke-width: 1.5px;
+    stroke: #FFFFFF;
+    stroke-width: 2px;
 }
-
 line.link {
-  stroke: #999;
-  stroke-opacity: .6;
+    stroke: #CECECE;
+    stroke-width: 0.5;
 }
-// ------------------------------
+text.txt {
+    font-family: "Helvetica Neue","Lucida Grande",Verdana,Geneva,sans-serif;
+}// ------------------------------
+
 
 // ------------------------------
 // Dynamic Force Graph
